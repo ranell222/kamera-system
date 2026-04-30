@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: #65b5eb; /* Matching your app's light grey vibe */
+    background-color: #d15811; /* Matching your app's light grey vibe */
 }
 /* --- TOP HEADER GLOW-UP --- */
 header {
-    background: linear-gradient(135deg, #669dd8 0%, #b3d7ff 100%);
+    background: linear-gradient(135deg, #cc501f 0%, #d66c15 100%);
     width: 100%;
     height: 80px;
     display: flex;
@@ -22,19 +22,19 @@ header {
 }
 header h1 {
     margin: 0;
-    font-size: 26px; /* Slightly larger */
+    font-size: 20px; /* Slightly larger */
     letter-spacing: 3px; /* This makes it look really modern */
     font-weight: 800;
-    color: #2c3e50; /* Darker blue-grey for better contrast */
+    color: #e06e11; /* Darker blue-grey for better contrast */
     text-transform: uppercase;
-    text-shadow: 1px 1px 0px rgba(114, 176, 228, 0.5); /* Subtle 'pop' */
+    text-shadow: 1px 1px 0px rgba(216, 106, 16, 0.897); /* Subtle 'pop' */
 }
 * { box-sizing: border-box; }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #f3f2f1;
+    background-color: #86838346;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -42,10 +42,10 @@ body {
 
 /* The Blue Header */
 .main-header {
-    background-color: #cee3f8;
+    background-color: #ce631d;
     padding: 15px;
     text-align: center;
-    border-bottom: 2px solid #a8c9ed;
+    border-bottom: 2px solid #d67423;
 }
 
 /* The Container for Sidebar + Form */
@@ -57,8 +57,8 @@ body {
 
 .sidebar {
     width: 300px;
-    background: white;
-    border-right: 1px solid #ddd;
+    background: rgba(255, 253, 250, 0.466);
+    border-right: 1px solid #e07f115d;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -68,27 +68,27 @@ body {
 
 /* Ensure the list items look like the blue boxes we had before */
 .pc-item {
-    background: white;
+    background: rgb(219, 129, 10);
     padding: 16px;
     margin-bottom: 12px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 8px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e6870bb2;
     transition: all 0.2s ease; /* Smooth hover effect */
     color: #333;
 }
 
 .pc-item:hover {
-    border-color: #0078d4;
-    background: #f0f7ff;
+    border-color: #d47800bb;
+    background: #e48a15;
     transform: translateX(5px); /* Tiny slide in effect */
 }
 
 /* Style for the active item so you know what's selected */
 /* --- THE MAIN TOP HEADER --- */
 header {
-    background: linear-gradient(135deg, #d6eaff 0%, #b3d7ff 100%);
+    background: linear-gradient(135deg, #f76f0086 0%, #e08114 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,16 +99,16 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 22px;
-    letter-spacing: 2px;
+    font-size: 35px;
+    letter-spacing: 5px;
     font-weight: 800;
-    color: #2c3e50;
+    color: #080431c7;
     text-transform: uppercase;
 }
 .pc-item.active {
-    background: #0078d4;
-    color: white;
-    border-color: #005a9e;
+    background: #d49b00;
+    color: rgb(231, 106, 22);
+    border-color: #b95d06;
 }
 .search-bar {
     padding: 8px;
@@ -118,7 +118,7 @@ header h1 {
 
 /* PC List Items */
 .pc-item {
-    background: #eef6ff;
+    background: #e7760b21;
     padding: 15px;
     margin-bottom: 8px;
     font-weight: bold;
@@ -128,14 +128,14 @@ header h1 {
 }
 
 .pc-item:hover {
-    background: #bad7f2;
+    background: #ce6e1477;
 }
 
 /* The Detail Panel on the Right */
 .details-panel {
     flex: 1;
     padding: 40px;
-    background-color: #ffffff;
+    background-color: #e6762c15;
 }
 
 .form-header {
@@ -167,7 +167,7 @@ input[type="text"] {
 }
 #save-btn {
     /* Colors and Text */
-    background-color: #0565a5; /* A nice professional blue */
+    background-color: #a54d05; /* A nice professional blue */
     color: white;
     font-size: 14px;
     font-weight: 600;
@@ -188,7 +188,7 @@ input[type="text"] {
 
 /* When you hover your mouse over it */
 #save-btn:hover {
-    background-color: #005a9e; /* Slightly darker blue */
+    background-color: #af490585; /* Slightly darker blue */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-1px); /* Subtle "lift" effect */
 }
@@ -202,7 +202,7 @@ input[type="text"] {
     width: 100%;
     max-width: 400px;
     padding: 10px;
-    border: 1px solid #2b5fbe;
+    border: 1px solid #be6d2b;
     border-radius: 4px;
     font-size: 14px;
     outline: none; /* Removes the default blue ring */
